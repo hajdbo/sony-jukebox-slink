@@ -3,6 +3,9 @@ sony-jukebox-slink
 
 Arduino program to send commands to a Sony CDP-CX jukebox via the S-Link protocol
 
+Commands are sent to the arduino via a basic serial protocol
+
+
 Cable:
 1/8th mono-jack
 connect mass the arduino mass
