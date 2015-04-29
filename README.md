@@ -15,7 +15,9 @@ Commands are sent to the arduino via a basic serial protocol
 
 
 Interface:
+
 ![interface](https://raw.githubusercontent.com/hajdbo/sony-jukebox-slink/master/slink_interface.png)
+
 
 Based on the reverse engineering done by Jeff Behle.
 His 2003 website is still visible via archive.org:
