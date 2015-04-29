@@ -14,10 +14,8 @@ Commands are sent to the arduino via a basic serial protocol
  * G127: select CD #127
 
 
-Cable:
-1/8th mono-jack
-connect mass the arduino mass
-connect tip of the jack to arduino pin 8 via a small NPN transistor and a resistor somewhere in the 1-5k ohm range. 
+Interface:
+![interface](https://raw.githubusercontent.com/hajdbo/sony-jukebox-slink/master/slink_interface.png)
 
 Based on the reverse engineering done by Jeff Behle.
 His 2003 website is still visible via archive.org:
