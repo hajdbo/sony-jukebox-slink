@@ -140,7 +140,7 @@ void loop(){
       case 'F': send_PREV(); break;
       case 'G': {  // 3 ascii disc    ex: G001   G148   G300
         while (Serial.available() < 3)  { delay(200); }
-        byte disc=(Serial.read()-48)*100; // ascii '0'=48(dec)
+        int disc=(Serial.read()-48)*100; // ascii '0'=48(dec)  "byte" for CDP-CX250 or eq, or "int" for use CDP-CX400 (450)
         disc+=(Serial.read()-48)*10;
         disc+=Serial.read()-48;
         send_PLAYDISKTRACK(disc,1); } break; 
