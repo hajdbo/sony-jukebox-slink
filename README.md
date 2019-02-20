@@ -26,3 +26,8 @@ Connect the interface to one of the Control-A1 ports, using a 3.5mm mono male ja
 History
 -------
 This is based on the reverse engineering done by Jeff Behle. He wrote a linux kernel driver, which I converted to an Arduino sketch. His 2003 website is still visible via archive.org: http://web.archive.org/web/20040722060841/http://www.undeadscientist.com/slink/index.html
+
+
+Notice
+------
+I don't have a jukebox anymore, so this repo will not change.
